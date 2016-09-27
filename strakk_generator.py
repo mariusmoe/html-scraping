@@ -4,7 +4,7 @@ import re
 import csv
 from time import sleep
 from config import *
-
+# made 27.09.16
 myBigList = []
 
 _strakkId = 7743
