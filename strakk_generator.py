@@ -42,6 +42,12 @@ def html_scraping(strakkId):
 	print("^^^^^^^^^^^^")
 	thisDatapoint = []
 	# becouse title is in a list we have to unpack it to be able to use get_text()
+
+###########################
+
+NEED fallback if cant find price 
+
+##########################
 	for title in titles:
 	    print(title.get_text().strip())     # remove leading spaces, have been a problem
 	    thisDatapoint.append(str(title.get_text().strip()))
